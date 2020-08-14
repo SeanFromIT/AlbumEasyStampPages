@@ -1,0 +1,119 @@
+ALBUM_PAGES_SIZE  (215.9 279.4)            #Set the page to US Letter (8.5 x 11)
+ALBUM_PAGES_MARGINS  (25.0 12.0 15.0 15.0)
+ALBUM_PAGES_MARGINSE  (12.0 25.0 15.0 15.0)
+ALBUM_PAGES_DECORATIVE_BORDER("CornerStyleA.txt")
+ALBUM_PAGES_TITLE    (HB 16 "US Christmas Issues")
+ALBUM_PAGES_SPACING  (6.0 6.0)
+
+PAGE_START
+PAGE_TEXT_CENTRE (HS 12 "Santa Ornaments · 2004");
+
+ROW_START_FS (HN 6 0.1 6.0)
+STAMP_ADD (25.0 30.0 "Purple Die Cut 8"  "" "" "")
+STAMP_ADD (60.0 70.0 "Block Perf Top"  "" "" "")
+STAMP_HEADING(HN 6 "Purple Santa ·                                      Green Santa · ")
+STAMP_ADD (25.0 30.0 "Green Die Cut 8"  "" "" "")
+
+#Note: ROW_ALIGN must be outside of/ahead of ROW_START block
+ROW_ALIGN_BOTTOM 
+
+ROW_START_FS (HN 6 0.1 6.0)
+STAMP_ADD (25.0 30.0 "Blue Die Cut 8"  "" "" "")
+STAMP_ADD (60.0 64.0 "Block Perf Bot"  "Blue Santa · " "" "Red Santa · ")
+STAMP_ADD (25.0 30.0 "Red Die Cut 8"  "" "" "")
+
+#Add spacing in single page
+ROW_START_FS (HN 6 0.1 6.0)
+STAMP_ADD_BLANK (10.0 10.0)
+
+ROW_ALIGN_TOP
+
+ROW_START_FS (HN 6 0.1 6.0)
+STAMP_ADD (25.0 30.0 "Purple\n\n10.25 x 10.75"  "" "" "")
+STAMP_ADD (25.0 30.0 "Green\n\n10.25 x 10.75"  "" "" "")
+STAMP_ADD (25.0 30.0 "Blue\n\n10.25 x 10.75"  "" "" "")
+STAMP_ADD (25.0 30.0 "Red\n\n10.25 x 10.75"  "" "" "")
+
+PAGE_START
+PAGE_TEXT_CENTRE (HS 12 "Christmas Cookies · 2005");
+
+ROW_START_FS (HN 6 0.1 6.0)
+STAMP_ADD (60.0 60.0 "Block Booklet"  "Angel · " "" "Elves · ")
+STAMP_HEADING(HN 6 "Santa ·                                                       Snowmen · ")
+
+ROW_START_FS (HN 6 0.1 6.0)
+STAMP_ADD_BLANK (10.0 10.0)
+
+ROW_START_FS (HN 6 0.1 6.0)
+STAMP_ADD (25.0 30.0 "Santa Claus\n\n10.5 x 10.75"  "" "" "")
+STAMP_ADD (25.0 30.0 "Snowmen\n\n10.5 x 10.75"  "" "" "")
+STAMP_ADD (25.0 30.0 "Angel\n\n10.5 x 10.75"  "" "" "")
+STAMP_ADD (25.0 30.0 "Elves\n\n10.5 x 10.75"  "" "" "")
+
+ROW_START_FS (HN 6 0.1 6.0)
+STAMP_ADD_BLANK (10.0 10.0)
+
+ROW_START_FS (HN 6 0.1 6.0)
+STAMP_ADD (29.0 35.0 "Santa Claus\n\nSheet Self-Adh\n\nPerf All Sides"  "" "" "")
+STAMP_ADD (29.0 35.0 "Snowmen\n\nSheet Self-Adh\n\nPerf All Sides"  "" "" "")
+STAMP_ADD (29.0 35.0 "Angel\n\nSheet Self-Adh\n\nPerf All Sides"  "" "" "")
+STAMP_ADD (29.0 35.0 "Elves\n\nSheet Self-Adh\n\nPerf All Sides"  "" "" "")
+
+PAGE_START
+PAGE_TEXT_CENTRE (HS 12 "Holiday Snowflakes · 2006");
+
+ROW_START_FS (HN 6 0.1 6.0)
+STAMP_ADD (60.0 63.0 "Block Sheet\n\nBase of 39 higher than date\n\nSerpentine Die Cut 11¼ x 11\n\nAll 4 Sides"  "Wide Center Arms · " "" "Large Center · ")
+STAMP_HEADING(HN 6 "Leafy Arms ·                                           Spindly Arms · ")
+
+ROW_START_FS (HN 6 0.1 6.0)
+STAMP_ADD_BLANK (5.0 5.0)
+
+ROW_START_FS (HN 6 0.1 6.0)
+STAMP_ADD (25.0 30.0 "Spindly Arms\n\nDie Cut 11¼ x 11½\n\nOn 3 Sides\n\n39 Even With Date"  "" "" "")
+STAMP_ADD (25.0 30.0 "Leafy Arms\n\nDie Cut 11¼ x 11½\n\nOn 2 or 3 Sides\n\n39 Even With Date"  "" "" "")
+STAMP_ADD (25.0 30.0 "Large Center\n\nDie Cut 11¼ x 11½\n\nOn 2 or 3 Sides\n\n39 Even With Date"  "" "" "")
+STAMP_ADD (25.0 30.0 "Wide Center Arms\n\nDie Cut 11¼ x 11½\n\nOn 2 or 3 Sides\n\n39 Even With Date"  "" "" "")
+
+ROW_START_FS (HN 6 0.1 6.0)
+STAMP_ADD_BLANK (2.0 2.0)
+
+ROW_START_FS (HN 6 0.1 6.0)
+STAMP_ADD (25.0 30.0 "Spindly Arms\n\nDie Cut 11¼ x 11\n\nOn 2 or 3 Sides\n\n39 Even With Date"  "" "" "")
+STAMP_ADD (25.0 30.0 "Leafy Arms\n\nDie Cut 11¼ x 11\n\nOn 2 or 3 Sides\n\n39 Even With Date"  "" "" "")
+STAMP_ADD (25.0 30.0 "Large Center\n\nDie Cut 11¼ x 11\n\nOn 2 or 3 Sides\n\n39 Even With Date"  "" "" "")
+STAMP_ADD (25.0 30.0 "Wide Center Arms\n\nDie Cut 11¼ x 11\n\nOn 2 or 3 Sides\n\n39 Even With Date"  "" "" "")
+
+ROW_START_FS (HN 6 0.1 6.0)
+STAMP_ADD_BLANK (2.0 2.0)
+
+ROW_START_FS (HN 6 0.1 6.0)
+STAMP_ADD (25.0 30.0 "Spindly Arms\n\nDie Cut 8\n\nOn 3 Sides"  "" "" "")
+STAMP_ADD (25.0 30.0 "Large Center\n\nDie Cut 8\n\nOn 2, 3 or 4 Sides"  "" "" "")
+STAMP_ADD (25.0 30.0 "Leafy Arms\n\nDie Cut 8\n\nOn 2, 3 or 4 Sides"  "" "" "")
+STAMP_ADD (25.0 30.0 "Wide Center Arms\n\nDie Cut 8\n\nOn 2, 3 or 4 Sides"  "" "" "")
+
+PAGE_START
+PAGE_TEXT_CENTRE (HS 12 "Holiday Knits · 2007");
+
+ROW_START_FS (HN 6 0.1 6.0)
+STAMP_ADD (60.0 75.0 "Block Sheet"  "Snowman · " "" "Teddy Bear · ")
+STAMP_HEADING(HN 6 "Reindeer ·                                                          Tree · ")
+
+ROW_START_FS (HN 6 0.1 6.0)
+STAMP_ADD_BLANK (10.0 10.0)
+
+ROW_START_FS (HN 6 0.1 6.0)
+STAMP_ADD (25.0 30.0 "Reindeer\n\n11.25 x 11"  "" "" "")
+STAMP_ADD (25.0 30.0 "Tree\n\n11.25 x 11"  "" "" "")
+STAMP_ADD (25.0 30.0 "Snowman\n\n11.25 x 11"  "" "" "")
+STAMP_ADD (25.0 30.0 "Teddy Bear\n\n11.25 x 11"  "" "" "")
+
+ROW_START_FS (HN 6 0.1 6.0)
+STAMP_ADD_BLANK (10.0 10.0)
+
+ROW_START_FS (HN 6 0.1 6.0)
+STAMP_ADD (25.0 30.0 "Reindeer\n\nDie Cut 8"  "" "" "")
+STAMP_ADD (25.0 30.0 "Tree\n\nDie Cut 8"  "" "" "")
+STAMP_ADD (25.0 30.0 "Snowman\n\nDie Cut 8"  "" "" "")
+STAMP_ADD (25.0 30.0 "Teddy Bear\n\nDie Cut 8"  "" "" "")
